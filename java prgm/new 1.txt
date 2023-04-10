@@ -1,0 +1,11 @@
+package ems;
+
+final class MainClass {
+	int empid;
+	String empname = "Arun";
+	public MainClass() {
+		int x=990;
+		System.out.println("From Emp Constr"+ x++);
+	}
+
+}
